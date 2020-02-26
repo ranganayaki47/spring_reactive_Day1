@@ -1,0 +1,49 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: outreachfeedback
+  datasource:
+    url: jdbc:mysql://localhost:3306/feedback_outreach?useSSL=false
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  ##servlet:
+    ##multipart:
+      ##enabled: true
+      ##file-size-threshold: 2KB
+      ##max-file-size: 200MB
+      ##max-request-size: 215MB
+
+server:
+  port: 7080
+  servlet:
+    context-path: /outreachfeedback
+
+management:
+  security:
+    enabled: false
+
+## Hibernate Logging
+logging:
+  level:
+    org:
+      hibernate.SQL: DEBUG
+
+outreach:
+  sourcePath: C:\Users\jcnt310\Desktop\FSE\Outreach\Events
+  destinationPath: C:\Users\jcnt310\Desktop\FSE\Outreach\Processed
+  errorPath: C:\Users\jcnt310\Desktop\FSE\Outreach\Error

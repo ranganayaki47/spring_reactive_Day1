@@ -1,0 +1,24 @@
+[
+  {
+    "employeeID": 736123,
+    "emailID": "ravikumar.cs@cognizant.com",
+    "password": "",
+    "userName": "Ravi",
+    "firstName": "Ravi",
+    "lastName": "Kumar",
+    "contactNo": 7373815464,
+    "roleName": "PMO",
+    "businessUnit": "JBHunt"
+  },
+  {
+    "employeeID": 625700,
+    "emailID": "Vaishnavi.Prabakaran@cognizant.com",
+    "password": "",
+    "userName": "Vaishu",
+    "firstName": "Vaishnavi",
+    "lastName": "Prabakaran",
+    "contactNo": 7373815464,
+    "roleName": "PMO",
+    "businessUnit": "JBHunt"
+  }
+]
