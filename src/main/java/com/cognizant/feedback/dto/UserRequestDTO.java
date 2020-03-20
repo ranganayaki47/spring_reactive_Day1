@@ -8,6 +8,7 @@ import java.io.Serializable;
 @Data
 public class UserRequestDTO implements Serializable {
 
+
   private static final long serialVersionUID = -6027189630824954098L;
 
   @NotEmpty(message = "User emailID is not Empty")

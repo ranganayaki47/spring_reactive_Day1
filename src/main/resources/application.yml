@@ -3,6 +3,7 @@ spring:
     banner-mode: "off"
   application:
     name: outreachfeedback
+
   datasource:
     url: jdbc:mysql://localhost:3306/feedback_outreach?useSSL=false
     driverClassName: com.mysql.cj.jdbc.Driver
